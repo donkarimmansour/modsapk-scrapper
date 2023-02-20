@@ -1,0 +1,30 @@
+{
+  "name": "amine",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.12",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.17.1",
+    "mongoose": "^6.6.5",
+    "morgan": "^1.10.0",
+    "querystring": "^0.2.1",
+    "request": "^2.88.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  },
+  "scripts": {
+    "dev": "nodemon versions/v1",
+    "dev_v1": "nodemon versions/v1",
+    "start": "node versions/v1",
+    "test": "node test"
+  },
+  "author": "",
+  "license": "ISC",
+  "engines": {
+    "node": "14.18.3"
+  }
+}
